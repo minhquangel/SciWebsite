@@ -1,0 +1,520 @@
+// ----------------- HEADER ------------------
+#mainNavigation {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+  .navbar-brand {
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 48px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .navbar-toggler {
+    color: #ffffff;
+    border-color: #ffffff;
+  }
+
+  #mainMenu {
+    color: #ffffff;
+
+    .nav-item {
+      .nav-link {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        line-height: 48px;
+        color: #FFFFFF;
+      }
+
+      &:hover {
+        background-color: rgb(80, 0, 255);
+      }
+
+      &.active {
+        background-color: rgb(80, 0, 255, 0.3);
+      }
+    }
+  }
+}
+
+// ----------------- BODY ------------------
+
+body, h1, h2, h3, h4, h5, h6, label, p, span {
+  font-family: 'Poppins', sans-serif;
+}
+
+.no-outline, .no-outline:hover, .no-outline:active, .no-outline:focus {
+  outline: none;
+}
+
+// ----------------- FOOTER ------------------
+
+.footer {
+  background-image: url('/images/bg-footer.svg');
+  background-color: #000000;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  padding: 60px 0px;
+  color: #FFFFFF;
+
+  .full-height {
+    height: 100%;
+  }
+
+  .footer-brand {
+    font-size: 24px;
+    line-height: 48px;
+    margin-bottom: 0px;
+  }
+
+  .footer-contact {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+
+  .footer-address {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    font-weight: 400;
+  }
+
+  .footer-copyright {
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    font-style: italic;
+  }
+}
+
+// ----------------- HOME PAGE ------------------
+
+.landing {
+  height: 100vh;
+  min-height: 700px;
+  background-size: cover;
+  background-position: center center;
+
+  .landing-content {
+    text-align: center;
+    color: #000000;
+
+    .full-height {
+      height: calc(100vh - 55px);
+      min-height: 645px;
+    }
+
+    .landing-title {
+      font-size: 36px;
+      color: #FFFFFF;
+      margin-bottom: 30px;
+      line-height: 40px;
+	  font-weight: 200;
+    }
+
+    .landing-action {
+      padding: 10px 25px;
+      font-size: 20px;
+      background-color: #FFFFFF;
+      color: #000000;
+      border-radius: 3px;
+      display: inline-block;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.sub-landing {
+  padding: 60px 0px;
+  color: #000;
+  text-align: center;
+  
+  .section-title {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 40px;
+  }
+
+  .section-description {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+
+  .section-action {
+    .section-link {
+      padding: 10px 25px;
+      font-size: 20px;
+      background-color: #000000;
+      color: #FFFFFF;
+      border-radius: 3px;
+      display: inline-block;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.navigation {
+  padding: 60px 0px;
+  color: #000;
+  text-align: center;
+  background-color: rgb(244, 245, 249);
+
+  .section-title {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 40px;
+	font-weight: 900;
+  }
+
+  .section-description {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+  }
+
+  .section-navigation {
+
+    .navigation-block {
+      height: 350px;
+      text-align: center;
+    }
+
+    .navigation-title {
+      color: #ffffff;
+      font-size: 24px;
+      line-height: 30px;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+
+    .blog-navigation {
+      background-position: center center;
+      background-size: cover;
+    }
+
+    .student-navigation {
+      background-position: center center;
+      background-size: cover;
+    }
+
+    .tourism-navigation {
+      background-position: center center;
+      background-size: cover;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+// ----------------- STUDENT PAGE ------------------
+
+// ----------------- SURVEY PAGE ------------------
+
+.survey-body {
+  min-height: calc(100vh - 261px);
+  color: rgb(117, 117, 117);
+
+  .message-block {
+    min-height: calc(100vh - 261px);
+
+    p {
+      font-size: 24px;
+      line-height: 36px;
+      margin-bottom: 40px;
+      font-weight: 300;
+    }
+
+    .go-home {
+      font-size: 24px;
+      line-height: 36px;
+      padding: 12px 25px;
+      font-family: 'Lora', sans-serif;
+      background-color: rgba(0, 0, 0, 0.06);
+      border: 0;
+      font-weight: 300;
+      color: rgb(117, 117, 117);
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.survey-content {
+  padding-top: 80px;
+  padding-bottom: 60px;
+
+  .question-block {
+    margin-bottom: 40px;
+
+    .question-content {
+      font-size: 24px;
+      line-height: 36px;
+      margin-bottom: 24px;
+      font-weight: 300;
+    }
+
+    .answer-block {
+      padding: 13px 15px 13px 50px;
+	  font-family: 'Dosis', sans-serif;
+      display: block;
+      width: 100%;
+      margin-bottom: 8px;
+      cursor: pointer;
+      background-color: rgba(0, 0, 0, 0.06);
+      position: relative;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      font-size: 18px;
+      line-height: 25px;
+      font-weight: 300;
+
+      .answer-input {
+        display: none;
+
+        &:checked ~ .checkmark {
+          &:after {
+            display: block;
+          }
+        }
+      }
+
+      .checkmark {
+        position: absolute;
+        top: 13px;
+        left: 12px;
+        height: 25px;
+        width: 25px;
+        border: 2px solid #28a745;
+        background-color: #ffffff;
+
+        &:after {
+          content: "";
+          position: absolute;
+          display: none;
+          top: 4px;
+          left: 4px;
+          width: 13px;
+          height: 13px;
+          border-radius: 50%;
+          background-color: #28a745;
+        }
+      }
+
+      &.radio-check {
+        .checkmark {
+          border-radius: 50%;
+        }
+      }
+    }
+
+    .mutiple-question {
+        
+      thead th {
+        border-bottom: 0;
+        border-top: 0;
+        text-align: center;
+      }
+
+      td {
+        border-top: 0px; 
+      }
+
+      .answer-block {
+        padding: 0px;
+        display: block;
+        width: 100%;
+        margin-bottom: 0px;
+        cursor: pointer;
+        background-color: #ffffff;
+        position: relative;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 300;
+
+        .checkmark {
+          position: relative;
+          display: block;
+          margin: 0 auto;
+          top: 0px;
+          left: 0px;
+        }
+      }
+    }
+  }
+
+  .submit-button {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 7px 25px;
+    font-family: 'Dosis', sans-serif;
+    background-color: rgba(0, 0, 0, 0.06);
+    border: 0px;
+    font-weight: 300;
+    color: rgb(117, 117, 117);
+  }
+
+  .answer-input-select {
+    padding-left: 20px;
+
+    select {
+      font-size: 18px;
+      outline: none;
+      background-color: rgba(0,0,0,.06);
+      color: #757575;
+      border: 2px solid #8f8f8f;
+      line-height: 25px;
+      padding: 10px 20px;
+    }
+  }
+}
+
+// ----------------- LIST BLOG PAGE ------------------
+
+.blog-landing {
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+
+  .landing-content {
+    text-align: center;
+    color: #000000;
+
+    .full-height {
+      height: 251px;
+    }
+
+    .landing-title {
+      font-size: 36px;
+      color: #FFFFFF;
+      margin-bottom: 0;
+      line-height: 40px;
+    }
+  }
+}
+
+.blog-body {
+  min-height: calc(100vh - 512px);
+  padding: 50px 0 40px;
+
+  .blog-block {
+    margin-bottom: 30px;
+
+    .blog-featured-image {
+      width: 100%;
+      height: 200px;
+      background-position: center center;
+      background-size: cover;
+    }
+
+    .blog-information {
+      padding-top: 20px;
+
+      h5 {
+        font-style: italic;
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 10px;
+      }
+
+      a {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 25px;
+
+        &:hover {
+          text-decoration: none;
+          color: #5000ff;
+        }
+      }
+
+      p {
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  .blog-create-time {
+    font-style: italic;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+
+  .blog-title {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 30px;
+  }
+
+  .blog-featured-image {
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .blog-content-block {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+}
+
+// ----------------- BLOG DETAIL PAGE ------------------
+
+// ----------------- RESPONSIVE ------------------
+
+@media (max-width: 575px) {
+
+}
+
+@media (max-width: 767px) {
+  .navigation {
+    .section-navigation {
+      .student-navigation {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .navigation {
+    .section-navigation {
+      .blog-navigation {
+        margin-bottom: 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1199px) {
+
+}
