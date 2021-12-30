@@ -1,6 +1,6 @@
 @extends('client.layout')
 
-@section('title', 'Home | U.S. Visa')
+@section('title', 'Home | Sci paper')
 
 @section('content')
 
@@ -11,7 +11,7 @@
             <div class="container">
                 <div class="row align-items-center full-height">
                     <div class="col">
-                        <h2 class="landing-title">Let us bring you to the U.S.</h2>
+                        <h2 class="landing-title">Let us polish your paper</h2>
                         <a class="landing-action" href="{{ route('survey.init') }}">Take Survey</a>
                     </div>
                 </div>
@@ -21,8 +21,8 @@
 
     <section class="sub-landing">
         <div class="container">
-            <h3 class="section-title">Nâng cao khả năng nhận visa của bạn</h3>
-            <p class="section-description">Năm 2018, 30% ứng viên bị từ chối visa ở Đại sứ quán Mỹ tại Hà Nội. Tỷ lệ này ở Hồ Chí Minh là 50%. Chúng tôi có thể giúp hồ sơ của bạn mạnh hơn nhiều trong mắt của những nhân viên chính phủ khó tính. </p>
+            <h3 class="section-title">Nâng cao khả năng bài báo của bạn được chấp nhận</h3>
+            <p class="section-description">Chúng tôi đã có một cuộc khảo sát các reviewers ở 23 các tạp chí và hội nghị quốc tế, ở 2 ngành khoa học máy tính và viễn thông. Ở các tạp chí và hội nghị rank C trở xuống: 80% số bài bị loại do các lỗi trình bày. Ở những hội nghị rank cao (acceptance rate nhỏ hơn 30%, một lỗi nhỏ trong trình bày có thể đưa một ý tưởng tốt vào thùng rác khoa học của họ)</p>
             <div class="section-action">
                 <a class="section-link" href="{{ route('service') }}">Làm thế nào?</a>
             </div>
@@ -31,8 +31,8 @@
 
     <section class="navigation">
         <div class="container">
-            <h3 class="section-title">Khám phá thông tin</h3>
-            <p class="section-description">Bạn có thể tham khảo thông tin về quy trình xét duyệt hồ sơ, đánh giá sơ bộ về hồ sơ của bạn thông qua bài khảo sát của chúng tôi.</p>
+            <h3 class="section-title">Giúp bạn viết báo cáo khoa học</h3>
+            <p class="section-description">Chúng tôi tham vấn cho bạn trong quá trình viết bài báo khoa học, trình bày lại ý tưởng của bạn theo văn phong nghiên cứu, tạo ra lợi thế không nhỏ để thuyết phục các nhà khoa học khó tính chấp nhận sản phẩm của bạn</p>
             <div class="section-navigation">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
@@ -51,7 +51,7 @@
                             <div class="overlay">
                                 <div class="row align-items-center navigation-block">
                                     <div class="col">
-                                        <a href="{{ route('student') }}" class="navigation-title">Student</a>
+                                        <a href="{{ route('student') }}" class="navigation-title">Undergranduate</a>
                                     </div>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@
                             <div class="overlay">
                                 <div class="row align-items-center navigation-block">
                                     <div class="col">
-                                        <a href="{{ route('tourism') }}" class="navigation-title">Tourism</a>
+                                        <a href="{{ route('tourism') }}" class="navigation-title">Master/PhD</a>
                                     </div>
                                 </div>
                             </div>
